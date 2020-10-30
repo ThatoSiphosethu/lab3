@@ -2,7 +2,7 @@ $(document).ready
 (
     function () {
         // add event listeners
-        $("button").click();
+        $("button").click(pizzaOrder);
 
         // other functions
         function pizzaOrder() {
