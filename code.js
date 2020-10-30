@@ -1,87 +1,66 @@
-function lateFees() {
-    //total books rented?
-
-    var books = prompt("How many books did you rent?");
-
-    //late days
-
-    var days = prompt("Total elapsed day since return date?");
-
-    //cost of book rental
-
-    var bookRental = parseFloat(books);
-
-    //total cost of book rental
-
-    var totalCost = 0.25 * days * bookRental;
-
-    //output
-
-    alert(`Your total is $${totalCost}`);
-
-    //total DVD's rented?
-
-    var DVD = prompt("How many DVD's did you rent?");
-
-    //late days
-
-    var lateDays = prompt("Total number of late days?");
-
-    //cost of dvd rental
-
-    var rental = parseFloat(DVD);
-
-    //total cost of dvd rental
-
-    var dvdRental = (0.75 * lateDays * rental);
-
-    //output
-
-    alert(`Your total is $${dvdRental}`);
+$(document).ready(function () {
+    // add event listeners
+    $("button").click(lateFees);
 
 
-}
+    // other functions
+    function lateFees() {
+        //total books rented?
 
-function pizzaOrder() {
+        var books = $("#booksRented").val();
+        books = parseFloat(books);
 
-    //total pizzas
+        //late days
 
-    var pizza = prompt("Cheese Pizza's do we want?");
+        var days = $("#days").val();
+        days = parseFloat(days);
 
-    //Cost of pizza
+        //cost of book rental
 
-    var pizzaCost = parseFloat(pizza)
+        var bookRental = parseFloat($("#books").val());
 
-    // how many toppings
+        //total cost of book rental
 
-    var toppings = prompt("How many toppings");
+        var totalCost = 0.25 * days * bookRental;
 
-    //cost of toppings
 
-    var toppingCost = parseFloat(toppings);
+        //output
 
-    //number of co-workers
+        // alert(`Your total is $${totalCost}`);
+        $("#bookTotal").text(totalCost.toFixed(1));
 
-    var coworkers = prompt("What is the total number of people buying?");
+        $("p.output").show();
 
-    //number of coworkers
+        //total DVDs rented?
 
-    var totalCoworkers = parseFloat(coworkers);
+        var DVD = $("#DVDRented").val();
+        DVD = parseFloat(DVD);
 
-    //total cost of pizza
+        //late days
 
-    var total = (pizzaCost + toppingCost);
+        var lateDays = $("#lateDays").val();
+        lateDays = parseFloat(lateDays);
 
-    //total
+        //cost of dvd rental
 
-    var totalCost = total / totalCoworkers;
+        var rental = parseFloat(DVD);
 
-    //output
-    alert(`Each person pays ${totalCost} `)
+        //total cost of dvd rental
+
+        var dvdRental = (0.75 * lateDays * rental);
+
+        //output
+
+        //alert(`Your total is $${dvdRental}`);
+        $("#dvdTotal").text(dvdRental.toFixed(1));
+
+        $("p.output").show();
+
+
+    }
+
+
+});
 
 
 
-
-
-
-}
