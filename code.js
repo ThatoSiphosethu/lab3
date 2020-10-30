@@ -7,7 +7,7 @@ $(document).ready(function () {
     function lateFees() {
         //total books rented?
 
-        var books = $("#booksRented").val();
+        var books = $("#books").val();
         books = parseFloat(books);
 
         //late days
@@ -17,11 +17,12 @@ $(document).ready(function () {
 
         //cost of book rental
 
-        var bookRental = parseFloat($("#books").val());
+        // The 0.25 is already below, don't need to get from user
+        // var bookRental = parseFloat($("#booksRental").val());
 
         //total cost of book rental
 
-        var totalCost = 0.25 * days * bookRental;
+        var totalCost = 0.25 * days * books;
 
 
         //output
