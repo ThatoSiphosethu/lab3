@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d9301e-d381-4ee0-b97e-e73c3fffb4b0" name="Default Changelist" comment="" />
+    <list default="true" id="27d9301e-d381-4ee0-b97e-e73c3fffb4b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/pizza.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +26,18 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="jQuery JS" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/template.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1jTPNm1x4LXPhna6cWBo7FM0DbA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,6 +53,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -51,7 +69,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603825071199</updated>
-      <workItem from="1603825072274" duration="5028000" />
+      <workItem from="1603825072274" duration="5371000" />
+      <workItem from="1603830491716" duration="5000" />
+      <workItem from="1603857042359" duration="629000" />
+      <workItem from="1603991296519" duration="683000" />
+      <workItem from="1603997522816" duration="12574000" />
     </task>
     <servers />
   </component>
@@ -59,9 +81,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="820" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603826878048">
+    <state x="1036" y="313" key="Github.ShareDialog" timestamp="1603830224323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="820" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603826878048" />
+    <state x="1036" y="313" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1603830224323" />
+    <state x="979" y="120" key="Github.UntrackedFilesDialog" timestamp="1603830233320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="979" y="120" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603830233320" />
+    <state x="0" y="60" key="SettingsEditor" timestamp="1603999119175">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="60" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603999119175" />
+    <state x="820" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603999081061">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="820" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603999081061" />
   </component>
 </project>

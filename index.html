@@ -3,12 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Charges</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
     <script src="code.js"></script>
+    <style>
+        .output {
+            display: none;
+        }
+    </style>
 </head>
+
 <body>
-
+<fieldset>
     <h1>Library Charges</h1>
-    <button onclick="lateFees()">Show Total Days and Charges</button>
+    <button>Show Total Days and Charges</button>
+</fieldset>
+<label for="books">Books Rented</label>
+<input type="number" id="Books">
 
+<label for="days">Late Days</label>
+<input type="number" id="days">
+<br>
+<label id="bookRental">Rental Price</label>
+<input type="number" id="booksRental">
+<br>
+
+<p class="output">Your total is $<span id="bookTotal"></span></p>
+<br>
+<br>
+<fieldset>
+<label for="DVD">DVD's Rented</label>
+<input type="number" id="DVD">
+<br>
+<label id="lateDays"> Days Late</label>
+<input type="number" id="lateDay">
+<br>
+<label id="rental">Rental Price</label>
+<input type="number" id="rentals">
+<br>
+
+<p class="output">Your cost of rental is $<span id=""></span></p>
+</fieldset>
 </body>
 </html>
